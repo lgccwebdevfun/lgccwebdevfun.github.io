@@ -1,0 +1,85 @@
+li {
+  display: inline-block;
+}
+
+li {
+  width: 20%;
+  text-align: center;
+}
+li img {
+  width: 80%;
+}
+
+li p {
+  text-align: left;
+}
+
+
+/*@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300italic,400italic,700,700italic);
+
+body {
+  background-color: #7a9a95;
+  color: #fa8b60;
+}
+
+#wrapper {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ccc;
+}
+
+h1, h2 {
+  font-family: 'Ubuntu', sans-serif;
+}
+header h1 {
+  float: left;
+}
+header nav {
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+main {
+  clear: both;
+}
+
+main ul {
+  border: 1px solid green;
+  width: 60%;
+  display: inline-block;
+}
+
+main ul li {
+  display: inline-block;
+  width: 8em;
+}
+
+main ul li figure {
+  text-align: center;
+  overflow: hidden;
+  padding: .25em;
+  width: 80%;
+
+  border: 1px solid black;
+}
+figcaption {
+  font-size: .5em;
+  font-style: italic;
+}
+li figure img {
+  width: 70%;
+}
+main div {
+  /*width: 25%;*/
+  border: 1px solid green;
+  float: right;
+  margin-right: 5em;
+}
+
+footer {
+  clear: both;
+}*/
