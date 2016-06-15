@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
 
 body {
-    background-color: #fa8b60;    
+    background-color: #fa8b60;
 }
 
 ul, li, figure, h1, h2 {
@@ -10,29 +10,99 @@ ul, li, figure, h1, h2 {
 }
 
 h1, h2 {
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
 }
+
+header {
+  margin-bottom: 2em;
+}
+
 header h1 {
-    width: 50%;
+  float: left;
 }
 
-nav {
-    float: right;
+header nav {
+  margin-left: 66%;
 }
 
-main {
-    clear: both;
+/*header ul {
+  float: right;
+}*/
+
+header li {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  padding: 0 2em;
+  margin-left: .25em;
 }
 
-li, figure {
+
+li {
     display: inline-block;
     text-align: center;
 }
 
-main section {
-    float: left;
+main {
+    clear: both;
+    text-align: center;
+    margin-top: 4em;
+    margin-bottom: 2em;
 }
 
-.thumbnails figure {
-    width: 10%;
+main ul {
+  width: 55%;
+  float: left;
 }
+ main ul li {
+   width: 30%;
+   margin: 0;
+   padding: 0;
+ }
+h4 {
+   padding: 0;
+   margin: 0;
+   font-size: .75em;
+   font-weight: normal;
+   font-style: italic;
+ }
+
+main div {
+  margin-left: 60%;
+}
+
+main ul img {
+  width: 60%;
+}
+
+main div img {
+  width: 100%;
+}
+
+footer {
+  clear: both;
+  margin-top: 2em;
+}
+
+footer p {
+  float: left;
+}
+
+footer ul {
+  float: right;
+}
+footer li {
+  padding-left: 1em;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: #000;
+
+}
+
+/*.thumbnails figure {
+    width: 10%;
+}*/
