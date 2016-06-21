@@ -25,9 +25,7 @@ header nav {
   margin-left: 60%;
 }
 
-/*header ul {
-  float: right;
-}*/
+/* header */
 
 header li {
   border: 1px solid black;
@@ -35,6 +33,10 @@ header li {
   text-align: center;
   padding: 0 2em;
   margin-left: .25em;
+}
+
+.selected {
+  background-color: #e9bc1b;
 }
 
 
@@ -67,9 +69,6 @@ h4 {
    font-style: italic;
  }
 
-/*main div {
-  margin-left: 60%;
-}*/
 
 main ul img {
   width: 100%;
@@ -126,17 +125,23 @@ div.map {
   width: 60%;
   background-color: #e9bc1b;
   margin-right: 1em;
+  border: 1px solid green;
 }
 
 .map div {
   float: left;
   width: 60%;
   text-align: center;
+  border: 1px dashed red;
 
 }
 
+address {
+  margin-left: 66%;
+}
+
 .map div img {
-  
+
 }
 
 .map p {
@@ -158,7 +163,7 @@ textarea {
   display: block;
 }
 
-
+/* footer */
 footer {
   clear: both;
   margin-top: 2em;
@@ -175,18 +180,9 @@ footer li {
   padding-left: 1em;
 }
 
-
-
-
-
-
 footer a {
   text-decoration: none;
   font-weight: bolder;
   color: #000;
 
 }
-
-/*.thumbnails figure {
-    width: 10%;
-}*/
