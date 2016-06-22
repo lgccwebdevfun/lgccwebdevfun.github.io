@@ -141,7 +141,7 @@ address {
 }
 
 .map div img {
-
+  width: 60%;
 }
 
 .map p {
@@ -185,4 +185,8 @@ footer a {
   font-weight: bolder;
   color: #000;
 
+}
+
+.clear_both {
+  clear: both;
 }
